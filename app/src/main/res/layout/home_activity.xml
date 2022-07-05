@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Welcume"
+        android:textColor="#B3E8E5"
+        android:gravity="center"
+        android:textSize="30dp"
+       />
+
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alooo"
+        android:textColor="#B3E8E5"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/productList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#82DBD8"
+        android:text="Go to Product List" />
+
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#82DBD8"
+        android:layout_gravity="center_horizontal"
+        android:text="Close App" />
+
+    <Button
+    android:id="@+id/noti"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center_horizontal"
+    android:backgroundTint="#82DBD8"
+    android:text="Notification" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#82DBD8"
+        android:text="Stop Sound" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_perm_phone_msg_24"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="350dp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_web_24"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="350dp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_message_24"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="350dp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/mess"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+</LinearLayout>
