@@ -39,6 +39,7 @@ public class HomeActivity extends AppCompatActivity {
         Button closeBtn = findViewById(R.id.closeBtn);
         Button notiBtn = findViewById(R.id.noti);
         Button stopBtn = findViewById(R.id.stopBtn);
+        Button mapBtn = findViewById(R.id.mapBtn);
 
 
         Intent intent = getIntent();
@@ -55,6 +56,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, ShowActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mapBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, MapsActivity.class);
                 startActivity(intent);
             }
         });
