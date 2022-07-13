@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/option_settings"
+        android:icon="@drawable/ic_android_black_24dp"
+       android:orderInCategory="30"
+        android:title="action_favorites"
+        app:showAsAction="ifRoom" />
+
+    <item  android:id="@+id/option_favorites"
+        android:title="Favorites"
+        app:showAsAction="never"
+        />
+    <item  android:id="@+id/option_favorites_2"
+        android:title="Favorites_2"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+</menu>

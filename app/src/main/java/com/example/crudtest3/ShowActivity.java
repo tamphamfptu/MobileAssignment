@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import dao.ProductDAO;
 import model.Product;
 
-public class ShowActivity extends AppCompatActivity {
+public class ShowActivity extends Dropdown {
     Button btnAddProduct;
     ListView lv;
     ArrayAdapter adapter;
